@@ -1,0 +1,47 @@
+body{
+    font-family: Georgia;
+    margin: 0;
+}
+.title{
+    background-color: blue;
+    color: white;
+    justify-content: space-between;
+	align-items: center;
+    display: flex;
+}
+.menu{
+    display: flex;
+    padding-right: 20px;
+}
+.name{
+    padding-left: 20px;
+}
+.menu a{
+    text-decoration: none;
+	padding-left: 13px;
+    color: white;
+}
+table{
+    display: flex;
+    justify-content: center;
+}
+select{
+    width: 178px;
+    height: 25px;
+}
+.birthdate{
+    width: 173px;
+    height: 23px;
+}
+.button{
+    display: flex;
+    justify-content: center;
+}
+.button button{
+        background-color: rgb(8, 8, 112);
+        color: white;
+        border-color: none;
+        border: 0;
+        text-align: center;
+        padding: 10px;
+}
